@@ -1,0 +1,17 @@
+{
+  "name": "postgres-to-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node .",
+    "fulltable" : "node fulltable.js",
+    "asyncFullTable" : "node asyncFullTable.js",
+    "transactions" : "node transactions.js"
+  },
+  "author": "Petru",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.11.3"
+  }
+}
